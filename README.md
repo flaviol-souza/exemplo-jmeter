@@ -12,7 +12,7 @@
 ### Como executar:
 Num prompt/shell, digitar:
 ``` shell
-jmeter -n -t consulta-google-jmeter-3.2.jmx -l resultado -e -o ./output
+jmeter -n -t command-line/consulta-google-jmeter-3.2.jmx -l resultado.jtl -e -o ./output
 ```
 
 ## maven
@@ -21,7 +21,7 @@ jmeter -n -t consulta-google-jmeter-3.2.jmx -l resultado -e -o ./output
 * Instalar o [Apache Maven 3.5.0](https://maven.apache.org/download.cgi) e incluir o diretório `$MAVEN_HOME/bin` no `PATH` do sistema;
 
 ### Como executar:
-Num prompt/shell, digitar:
+Num prompt/shell, digitar dentro do diretório `exemplo-jmeter/maven/`:
 ``` shell
 mvn verify
 ```
